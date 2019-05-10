@@ -3,12 +3,7 @@ Public backspace_disabled As Boolean
 
 
 Sub disable_backspace()
-'
-' disable_backspace ºê
-'
-'
 
-'CustomizationContext = ActiveDocument.AttachedTemplate
 KeyBindings.Add KeyCode:=BuildKeyCode(wdKeyB, wdKeyShift, wdKeyControl), KeyCategory:=wdKeyCategoryMacro, Command:="print_hello_world"
 KeyBindings.Add KeyCode:=BuildKeyCode(wdKeyBackspace), KeyCategory:=wdKeyCategoryMacro, Command:="empty_function"
 
